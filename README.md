@@ -32,10 +32,9 @@ Create a production build with `npm run build`; preview it with
 
 The workflow in `.github/workflows/deploy.yml` builds the site and publishes it
 to GitHub Pages whenever changes are pushed to `main`. In the repository's
-**Settings > Pages**, set the source to **GitHub Actions**. The Vite base path
-is configured for this repository's project site:
+**Settings > Pages**, set the source to **GitHub Actions**. The Vite base path is configured for this GitHub user site:
 
-`https://thepratikshasingh.github.io/pratikshasingh.github.io/`
+`https://thepratikshasingh.github.io/`
 
 The first deployment may take a few minutes. Check the Actions tab for the
 workflow status and deployment URL.
