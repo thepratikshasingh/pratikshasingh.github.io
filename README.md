@@ -42,9 +42,8 @@ workflow status and deployment URL.
 ## Profile content
 
 Education and contact information are based on the resume supplied for this
-portfolio. The supplied profile does not list professional roles, projects, or
-technical skills, so those sections identify the missing information rather
-than inventing it. Replace the empty projects list in `src/App.tsx` and add
-confirmed details when available.
+portfolio. The supplied profile does not list professional roles or technical
+skills, so those sections identify the missing information rather than inventing
+it. Add confirmed details when available.
 
 The resume download is served from `public/Pratiksha-Singh-Resume.pdf`.

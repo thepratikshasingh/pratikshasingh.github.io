@@ -3,7 +3,6 @@ import Contact from "./components/Contact";
 import Experience, { type EducationEntry } from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
 import Skills, { type SkillGroup } from "./components/Skills";
 
 const education: EducationEntry[] = [
@@ -50,7 +49,6 @@ function App() {
         <About />
         <Experience items={education} />
         <Skills groups={studyAreas} />
-        <Projects projects={[]} />
         <Contact />
       </main>
     </>
