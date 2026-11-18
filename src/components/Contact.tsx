@@ -1,4 +1,4 @@
-import { ArrowRight, ArrowUpRight, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowRight, ArrowUpRight, Linkedin, Mail } from "lucide-react";
 
 const contactLinks = [
   {
@@ -13,12 +13,6 @@ const contactLinks = [
     href: "https://www.linkedin.com/in/pratiksha-singh-6769a5431/",
     icon: Linkedin,
   },
-  {
-    label: "GitHub",
-    value: "Explore my profile",
-    href: "https://github.com/thepratikshasingh",
-    icon: Github,
-  },
 ];
 
 function Contact() {
@@ -27,7 +21,7 @@ function Contact() {
       <section className="section section-contact" id="contact">
         <div className="page-shell contact-shell">
           <div className="contact-heading">
-            <span className="section-kicker">05 / Contact</span>
+            <span className="section-kicker">04 / Contact</span>
             <h2>
               Let&apos;s start
               <br />
@@ -72,7 +66,6 @@ function Contact() {
           <a className="wordmark footer-wordmark" href="#home">
             PS<span>.</span>
           </a>
-          <p>Made with care by Pratiksha Singh</p>
           <a className="back-to-top" href="#home">
             Back to top <ArrowUpRight size={14} aria-hidden="true" />
           </a>
